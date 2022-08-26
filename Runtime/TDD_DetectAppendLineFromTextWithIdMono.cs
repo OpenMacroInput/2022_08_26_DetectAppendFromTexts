@@ -14,13 +14,6 @@ public class TDD_DetectAppendLineFromTextWithIdMono : MonoBehaviour
     public string m_text;
 
 
-    public string m_test;
-    public int m_start;
-    public int m_end;
-    public string m_l;
-    public string m_m;
-    public string m_r;
-
     public IdStringEvent m_newTextWithId;
     [System.Serializable]
     public class IdStringEvent : UnityEvent<string, string> { }
@@ -42,15 +35,7 @@ public class TDD_DetectAppendLineFromTextWithIdMono : MonoBehaviour
     {
         m_newTextWithId.Invoke(m_id, "");
     }
-
-
-
-    private void OnValidate()
-    {
-       //Push();
-
-        Eloi.E_StringUtility.SplitInThree( m_test, m_start, m_end,
-           out m_l, out m_m, out m_r);
+    public void PushText(string text) {
+        m_newTextWithId.Invoke(m_id, text);
     }
-
 }

@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.omi.detectappendfromtexts",                              
+  "displayName": "Detect Append fromtexts",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "This package compare previous text to new text to find the append lines of the user. The first aim is to compare online page for change. But can be use in other context.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/OpenMacroInput/2022_08_26_DetectAppendInText.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 
